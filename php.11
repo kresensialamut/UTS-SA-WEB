@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Belajar PHP</title>
+  </head>
+  <body>
+    <h1>Array PHP</h1>
+    <?php
+      //------ tipe data array ------
+      $angka = [5, 10, 2, 1, 6];
+      $kotak = array('anjing', 'kurakura', 'koala', 'banteng');
+      $nama  =['Hilaman', 'Endy', 'Tiqa'];
+      //print_r($kotak);
+      //echo $nama[0];
+      //----- Metode Array ------
+      //array_unique_reverse_shuffle_count_sort
+      //Shuffle($kotak);
+      //print_r($kotak);
+      //sort($angka);
+      //print_r($angka)
+        //echo count($nama);
+      //----Assosociative array ----
+      // key => isi
+      $data = array( "nama"   => "Hilaman" ,
+                     "umur"   => 21 ,
+                     "kerja"  =>  "pengacara"
+              );    
+      //print_r($data);
+        $data['nama'] = "Hilman Ramadhan";
+        echo "Nama adalah " . $data['nama'];
+      //echo "pekerjaannya adalah" . $data [ 'kerja'];
+
+
+    ?>
+</html>
