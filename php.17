@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Belajar PHP</title>
+  </head>
+  <body>
+    <h1>loop php</h1>
+    <?php
+      //------pengulangan------
+     //for(variabelawal(mulai);batas(syarat);perubahan)
+      $hewan = ['anjing', 'babi', 'cicak', 'domba'];
+      //for($i=0; $i< count($hewan); $i++)
+       // {
+       //   echo "------------------";
+       //   echo $hewan[$i];
+      //  echo "-----------------<br>";
+      // }
+      ///foreach($hewan as $h){
+        // echo "-------------";
+        //echo $h;
+        //echo "-------------<br>";
+      //}
+      $data = ['nama' => 'hilman',
+               'umur' => 24,
+               'sifat' => 'malas'];
+
+      foreach($data as $key => $value){
+        //echo $d . "<b>";
+        //echo $key . "<b>";
+        echo $value . "<b>";
+
+      }
+
+    ?> 
+  </body>
+</html>
